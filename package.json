@@ -1,0 +1,21 @@
+{
+  "name": "wysimark",
+  "version": "0.1.0",
+  "description": "Wysimark WYSIWYG Markdown Editor",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "author": "Sunny Hirai",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0"
+  }
+}
