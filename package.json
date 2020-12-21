@@ -10,12 +10,15 @@
   ],
   "author": "Sunny Hirai",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
   "devDependencies": {
     "@types/react": "^16.8.0",
     "@types/react-dom": "^16.8.0"
+  },
+  "scripts": {
+    "publish:npm": "npm version patch --version && npm publish"
   }
 }
