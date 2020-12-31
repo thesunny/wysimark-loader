@@ -15,11 +15,12 @@ export declare function useEditor(initialMarkdown: string): UseWysimarkReturnVal
 /**
  * The lazily loaded Wysimark component to place in an app.
  */
-export declare function Editor({ editor, minHeight, maxHeight, url, appName, folder, }: {
+export declare function Editor({ editor, minHeight, maxHeight, url, uploadPolicyUrl, appName, folder, }: {
     editor: UseWysimarkReturnValue;
     minHeight?: number;
     maxHeight?: number;
     url?: string;
+    uploadPolicyUrl?: string;
     appName: string;
     folder: string;
 }): JSX.Element;
