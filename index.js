@@ -266,8 +266,8 @@ function useEditor(initialMarkdown) {
 /**
  * The lazily loaded Wysimark component to place in an app.
  */
-function Editor({ editor, minHeight = 240, maxHeight, url = "http://admin.wysimark.com/build/wysimark.js", uploadPolicyUrl, app, folder, }) {
-    const external = useExternalModule(url, "__wysimark__");
+function Editor({ editor, minHeight = 240, maxHeight, scriptUrl = "http://admin.wysimark.com/build/wysimark.js", uploadPolicyUrl, app, folder, }) {
+    const external = useExternalModule(scriptUrl, "__wysimark__");
     if (external.ready) {
         const { Wysimark: Editor } = external.module;
         return (React__default['default'].createElement(Editor, { showInitial: !external.cached, getMarkdownRef: editor.getMarkdownRef, initialMarkdown: editor.initialMarkdown, minHeight: minHeight, maxHeight: maxHeight, app: app, folder: folder, uploadPolicyUrl: uploadPolicyUrl }));

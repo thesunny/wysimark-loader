@@ -20,7 +20,8 @@
   },
   "scripts": {
     "patch": "npm version patch --force",
-    "publish:npm": "echo 'you need to manually \"npm publish\"'"
+    "publish:npm:old": "echo 'you need to manually \"npm publish\"'",
+    "publish:npm": "yarn version --patch && yarn publish"
   },
   "dependencies": {}
 }
