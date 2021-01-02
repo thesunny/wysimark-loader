@@ -20,7 +20,7 @@
   },
   "scripts": {
     "patch": "npm version patch --force",
-    "publish:npm": "npm publish"
+    "publish:npm": "echo 'you need to manually \"npm publish\"'"
   },
   "dependencies": {}
 }
