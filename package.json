@@ -1,6 +1,6 @@
 {
   "name": "wysimark",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Wysimark WYSIWYG Markdown Editor",
   "main": "index.js",
   "types": "index.d.ts",
@@ -19,7 +19,8 @@
     "@types/react-dom": "^16.8.6"
   },
   "scripts": {
-    "publish:npm": "npm version patch --force && npm publish"
+    "patch": "npm version patch --force",
+    "publish:npm": "npm publish"
   },
   "dependencies": {}
 }
