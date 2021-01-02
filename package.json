@@ -1,6 +1,6 @@
 {
   "name": "wysimark",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Wysimark WYSIWYG Markdown Editor",
   "main": "index.js",
   "types": "index.d.ts",
