@@ -266,7 +266,7 @@ function useEditor(initialMarkdown) {
 /**
  * The lazily loaded Wysimark component to place in an app.
  */
-function Editor({ editor, minHeight = 240, maxHeight, scriptUrl = "http://admin.wysimark.com/build/wysimark.js", uploadPolicyUrl, app, folder, }) {
+function Editor({ editor, minHeight = 240, maxHeight, scriptUrl = "https://admin.wysimark.com/build/wysimark.js", uploadPolicyUrl, app, folder, }) {
     const external = useExternalModule(scriptUrl, "__wysimark__");
     if (external.ready) {
         const { Wysimark: Editor } = external.module;
